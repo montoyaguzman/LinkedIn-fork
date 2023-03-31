@@ -1,0 +1,110 @@
+body{
+    background-color:#f3f2ef;
+}
+.navHeader{
+    background-color: #fff;
+    margin: -9px -9px;
+    width: 1276.7px;
+    height: 52.67px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:  normal;
+    justify-content:  space-around;
+    flex-direction:  row;
+    border: solid crimson;
+    list-style: none;
+    /* padding: 0 px 24px; */
+    
+    
+}
+.linkedInIcon{
+    margin: 10px -30px;
+    width: 41px;
+    height: 34px;
+    background: url('./assets/linkedin.png');
+    background-repeat: no-repeat;
+}
+.barraSearch{
+    margin: 10px -30px;
+    width: 279.31px;
+    height: 34px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:  normal;
+    justify-content:  space-between;
+    flex-direction:  row;
+    border: solid crimson;
+    list-style: none;
+}
+.barraSearch .icon-seacrh{
+    margin: 0px -20px;
+    width: 35px;
+    height: 30px;
+    background-image: url('./assets/search-icon.png');
+    background-repeat: no-repeat;
+}
+.barraSearch .input-search{
+    width: 240px;
+    height: 29px;
+    font-size: 14px;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Icono Inicio */
+.navHome{
+    margin: 10px -30px;
+    width: 80px;
+    height: 34px;
+    display: flex;
+    flex-wrap: row;
+    align-items:  center;
+    justify-content:  space-between;
+    flex-direction:  column;
+    border: solid crimson;
+    list-style: none;    
+
+}
+.navHome .icon-home{
+    /* margin: auto; */
+    width: 20px;
+    height: 20px;
+    /* border: 0; */
+    background-image: url('https://img.icons8.com/material-rounded/20/null/home-page.png');
+   
+
+}
+.navHome .pHome{
+    margin: -19px 0px;
+    font-size: 14px;
+    border: solid crimson;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ;
+    margin: 20px;
+    border: solid crimson;
+    background-color: antiquewhite;
+    height: 500px;
+    
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; */
+
+    /* Main */
+.grid-container{
+    display: grid;
+    grid-template-columns: 225px 555px 335px;
+    background-color: rgb(189, 191, 191);
+    margin: 32px;
+    column-gap: 21px;
+    row-gap: 6px;
+}
+.grid-container div{
+    background-color: blue;
+    border: 1px solid black;
+    
+}
+.grid-container div .divIzquierda{
+    width: 225px;
+}
