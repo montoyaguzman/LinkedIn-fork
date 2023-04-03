@@ -18,6 +18,10 @@ body{
     background-color:#f3f2ef;
 }
 /* Nav Styles */
+.containerNav {
+    margin-inline: auto;
+    border: 1px solid crimson;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -41,7 +45,11 @@ nav{
     width: 300px;
     height: 34px;
 }
-.nav-primary .icon-search{/* imagen */
+.nav-primary .icon-seacrh{/* imagen */
+    margin-right: 0.4375rem;
+    margin-left: 4.6875rem;
+    height: 10px
+    hei;
     border: 1px solid crimson; 
 }
 
@@ -59,3 +67,66 @@ nav{
     display: flex;
 }
 
+/* Main */
+.container{
+    max-width: 1205px;
+    margin-inline: auto;
+    margin: 4.1875rem;
+    margin-top: 35px;
+    margin-right: 70px;
+    margin-left: 27px;
+    border: 1px solid crimson;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 5.25rem;/* 
+	background-color: #fff; */
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	/* box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1); */
+	backdrop-filter: blur(32px);
+}
+.divIzquierda{
+    width: 235px;
+    border: 1px solid blue;
+	border-radius: 12px;
+    background-color: #fff;
+}
+.divIzquierda .icon-back{
+    border-top-right-radius:  5px;
+    border-top-left-radius:  5px;
+}
+.divIzquierda .icon-perfil{
+    margin: -36px 18px;
+    border-radius: 40px;
+    height: 72px; 
+    width: 72px;
+    border: 3px solid rgb(21, 23, 16);
+}
+.divIzquierda :nth-child(3){
+    margin-top: 40px;
+    margin-left: 17px;
+}
+h2{
+    margin-top: 16px;
+    font-weight: 480;
+	font-size: 1.5rem;
+	max-width: 57ch;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000000E6;
+}
+.container-perfil{
+    margin-top: 10px;
+    display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+	background-color: rgba(255, 255, 255, 0.64);
+	/* box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1); */
+/* 	backdrop-filter: blur(32px); */
+}
+.divIzquierda .container-perfil span {    
+    margin-left: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000000E6;
+    padding: 12px 0px;
+}
