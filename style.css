@@ -42,7 +42,7 @@ nav {
     margin-left: 75px;
     margin-top: 8px;
     margin-bottom: 8px;
-    height:  52px;
+    height: 52px;
 }
 
 .nav-primary .icon-home {
@@ -68,29 +68,43 @@ nav {
     background-color: #EEF3F8;
     border-radius: 5px;
 }
-.nav-primary section i{
+
+.nav-primary section i {
     margin-left: 8px;
 }
-.nav-primary li .first-div{
-    margin-left: 150px;
-}
-.nav-primary li div{
-    margin-left: 26px;
-    display: grid; 
-    align-content: center;
-    justify-content: center;
+
+.nav-primary li div {
+    /* margin-left: 26px; */
+    display: grid;
+    justify-items: center;
     font-size: 12px;
     color: #000000E6;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.nav-primary hr{
-    margin-left: 27px;
-    height: 45px;    
+
+/* .container-lis {
+    display: grid;
+    column-gap: 26px;
+    margin-left: 150px;
+    grid-template-columns: repeat(9, 1fr);
+} */
+
+.container-lis {
+    display: flex;
+    margin-left: 150px;
+    column-gap: 26px;
 }
-.nav-primary li div a{
+
+.nav-primary hr {
+    margin-left: 27px;
+    height: 45px;
+}
+
+.nav-primary li div a {
     margin-top: 10PX;
     color: #5D3B09;
 }
+
 /* 
 
     border: 1px solid rgb(97, 20, 220);
@@ -748,15 +762,17 @@ h2 {
     border: none;
     color: #00000099;
 }
-.right-footer{
-}
-.right-footer div img{
+
+.right-footer {}
+
+.right-footer div img {
     border-radius: 12px;
     height: 250px;
     box-shadow: 1px 1px 5px black;
 }
-.footer-bottom{
-text-align: center;
+
+.footer-bottom {
+    text-align: center;
 }
 
 /* border: 1px solid #9c1f1f;  */
